@@ -11,6 +11,7 @@ A simple login page with HTML, CSS and javaScript, employing PHP for its backend
 4. Create a branch
 5. Add your codes
 6. Commit your changes
+7. Push your code using the current branch ```git push origin branch-name``` or ```git push origin HEAD```
 7. Make a pull request.
 
 # HAPPY CODING!!!
