@@ -8,7 +8,7 @@ A simple login page with HTML, CSS and javaScript, employing PHP for its backend
 1. Fork the repository
 2. Clone the repository
 3. Add as remote upstream using ```git remote add upstream https://github.com/Caleb335/hng6-login-page.git```
-4. Create a branch
+4. Create a branch using ```git checkout -b branch-name``` PS:- The branch name can be any name you wish, but it should be meaningful.
 5. Add your codes
 6. Commit your changes
 7. Push your code using the current branch ```git push origin branch-name``` or ```git push origin HEAD```
