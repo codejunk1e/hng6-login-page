@@ -68,7 +68,10 @@ h1{
     padding-left: 10px;
 }
 
-.loginbox input[type="text"],
+.loginbox input[type="text"]:hover {
+    transform: translateY(-2px);
+    border: 1px solid lightgreen;
+}
 input[type="password"]:hover {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
