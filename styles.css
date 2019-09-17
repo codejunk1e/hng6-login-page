@@ -8,22 +8,19 @@ body{
     background-size: cover;
     background-position: top;
 	/*background-position: center;*/
-	font-family: julee;
 }
 .loginbox{
-	width: 320px;
+	width: 500px;
 	height: 420px;
-    background-color: white;
-    background: transparent;
 	color: black;
-	top: 50%;
-    left: 50%;
+	margin-left: 400px;
+	margin-top: 100px;
     border-radius: 5px;
 	position: absolute;
-	transform: translate(-50%, -50%);
 	box-sizing: border-box;
     padding: 70px 30px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
+	font-family: montserrat, sans-serif;
 }
 .avatar{
 	width: 100px;
@@ -36,39 +33,16 @@ body{
 	top: -50px;
 	left: calc(20% -20px);
 }
-h1{
-	margin: 0;
-	padding: 0 0 20px;
-	text-align: center;
-    font-size: 34px;
-    color: green;
-    font-weight: bolder;
-
-}
-.loginbox p{
-	margin: 0;
-    padding: 0;
-    font-size: 22px;
-	font-weight: bolder;
-}
-.loginbox input{
+input{
 	width: 100%;
 	margin-bottom: 20px;
-}
-.loginbox input[type="text"], input[type="password"]{
-	border: none;
-	/* border: 1px solid black; */
-    background: white;
-    border-radius: 10px;
 	outline: none;
-	height: 40px;
-	color: black;
-    font-size: 19px;
-    font-family: Julee;
-    padding-left: 10px;
+	padding: 5px;
+	height: 25px;
+	border-radius: 10px;
+	background: transparent;
 }
-
-.loginbox input[type="text"]:hover {
+input[type="email"]:hover {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
 }
@@ -76,34 +50,42 @@ input[type="password"]:hover {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
 }
-
-.loginbox input[type="submit"]{
+input[type="submit"]{
+	width: 95px;
+	height: 35px;
+	background-color: #054F22;
+	color: white;
 	border: none;
-	outline: none;
-	height: 40px;
-	background: green;
-	color: #fff;
-	font-size: 23px;
-	font-family: serif; 
-	border-radius: 15px;
 }
-.loginbox input[type="submit"]:hover{
+
+input[type="submit"]:hover{
 	cursor: pointer;
-	background: black;
+	background: #054F22;
     color: #fff;
     transform: translateY(-3px);
 }
-.loginbox a{
+.submit{
+	margin-left: 75px;
+}
+.fourloop{
+	text-align: center;
+}
+.loop{
+	font-family: merienda, cursive;
+	text-align: center;
+	color: #054F22;
+	font-size: 48px;
+	font-weight: bold;
+}
+.four{
+	font-family: Oleo Script, sans-serif;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+a{
 	text-decoration: none;
-	font-size: 16px;
-	line-height: 20px;
-	color: darkgrey;
-
 }
-.loginbox a:hover{
-	color: red;
-}
-
 @media screen and (min-width: 770px) {
     body{
         background-size: cover;

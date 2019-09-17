@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Styles link -->
     <title>Login page</title>
-    <link href="https://fonts.googleapis.com/css?family=Julee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Montserrat|Oleo+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <!-- all code go here -->
     <div class="loginbox">
         <img src="https://res.cloudinary.com/tabeetha/image/upload/v1568648173/user-1633249_v5fkne.svg" class="avatar">
-        <h1><span style="color: black;">4</span>loop</h1>
+        <p class="fourloop"><span class="four">4</span><span class="loop">loop</span></p>
         <form>
-            <p>Email</p>
-            <input type="text" name="username" placeholder="Email address"><br>
-            <p>Password</p>
-            <input type="password" name="password" placeholder="Password"><br>
-            <input type="submit" value="Login"><br>
-            <a href="#">Forgot your password? Click <span style="color: red">Here</span></a><br>
-            <a href="#">Don't have an account? Sign Up <span style="color: red">Here</span></a>
+            <label for="email">
+                <input type="email" id="email" placeholder="Email">
+            </label>
+            <label for="password">
+                <input type="password" id="password" placeholder="Password">
+            </label>
+            <div class="forgot">Forgot your password? Click <a href="#" style="color: red">Here</a><input type="submit" value="LOGIN" class="submit"></div>
+            <div>Dont have an account? Sign Up <a href="#" style="color: red">Here</a></div>
         </form>
     </div>
     <script src="index.js"></script>
