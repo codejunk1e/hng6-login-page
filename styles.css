@@ -67,6 +67,13 @@ h1{
     font-family: Julee;
     padding-left: 10px;
 }
+
+.loginbox input[type="text"],
+input[type="password"]:hover {
+    transform: translateY(-2px);
+    border: 1px solid lightgreen;
+}
+
 .loginbox input[type="submit"]{
 	border: none;
 	outline: none;
@@ -80,7 +87,8 @@ h1{
 .loginbox input[type="submit"]:hover{
 	cursor: pointer;
 	background: black;
-	color: #fff;
+    color: #fff;
+    transform: translateY(-3px);
 }
 .loginbox a{
 	text-decoration: none;
