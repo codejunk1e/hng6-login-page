@@ -95,12 +95,12 @@ input{
 	border: none;
 	background: green;
 	color: #fff;
-	margin-top: 6%;
+	margin-top: 4%;
 	border-radius: 5px;
 	height: 40px;
 }
 
-.loginbox input[type="submit"]:hover{
+.sign-up:hover {
 	cursor: pointer;
 	background: black;
 	color: #fff;
@@ -108,15 +108,18 @@ input{
 }
 
 input[type="email"]:hover {
+	cursor: pointer;
     transform: translateY(-2px);
     border: 1px solid lightgreen;
 }
 input[type="password"]:hover {
+	cursor: pointer;
     transform: translateY(-2px);
 	border: 1px solid lightgreen;
 }
 
 input[type="text"]:hover {
+	cursor: pointer;
     transform: translateY(-2px);
 	border: 1px solid lightgreen;
 }
