@@ -8,6 +8,8 @@ function validateLogin() {
     var errorMessage = document.getElementById('errorMessage');
     var text;
 
+    alert(fullName);
+
     errorMessage.style.padding = "10px";
 
     if (fullName == "") {
