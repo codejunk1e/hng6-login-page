@@ -80,6 +80,17 @@ input[type="password"]:hover {
 	color: #fff;
 	transform: translateY(-1px);
 }
+
+.loginbox #errorMessage {
+	margin-bottom: 12px;
+	padding: 0px;
+	background: #e91c23;
+	text-align: center;
+	color: #fff;
+	font-size: .9rem;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
 .fourloop{
 	text-align: center;
 }
