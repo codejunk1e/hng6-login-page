@@ -23,20 +23,6 @@
 	font-family: montserrat, sans-serif;
 }
 
-.loginbox1 {
-	width: 40%;
-	color: black;
-	height: 67%;
-	margin-left: 30%;
-	margin-top: 4.5%;
-    border-radius: 5px;
-	position: absolute;
-	border: 1px solid;
-    padding: 70px 30px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
-	font-family: montserrat, sans-serif;
-}
-
 .avatar{
 	width: 100px;
 	height: 100px;
@@ -67,6 +53,22 @@ input{
 	font-size: 19px;
 	font-weight: 600;
     padding-left: 10px;
+}
+
+/* signup page */
+
+.loginbox1 {
+	width: 40%;
+	color: black;
+	height: 67%;
+	margin-left: 30%;
+	margin-top: 4.5%;
+    border-radius: 5px;
+	position: absolute;
+	border: 1px solid;
+    padding: 70px 30px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
+	font-family: montserrat, sans-serif;
 }
 
 .loginbox1 input[type="email"], 
@@ -100,7 +102,7 @@ input{
 	height: 40px;
 }
 
-.loginbox1 #errorMessage {
+.loginbox1 #errorMessage1 {
 	margin-bottom: 12px;
 	padding: 0px;
 	background: #e91c23;
@@ -116,6 +118,8 @@ input{
 	color: #fff;
 	transform: translateY(-1px);
 }
+
+/* code for signup page ends here */
 
 input[type="email"]:hover {
 	cursor: pointer;
