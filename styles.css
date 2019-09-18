@@ -6,17 +6,17 @@ body{
     background: url('https://res.cloudinary.com/memz/image/upload/v1568640870/20190916_143335_gl66ar.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center center;
 	/*background-position: center;*/
 }
 .loginbox{
-	width: 500px;
+	width: 40%;
 	color: black;
-	margin-left: 400px;
+	margin-left: 30%;
 	margin-top: 100px;
     border-radius: 5px;
 	position: absolute;
-	box-sizing: border-box;
+	border: 1px solid;
     padding: 70px 30px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
 	font-family: montserrat, sans-serif;
@@ -36,22 +36,23 @@ input{
 	width: 100%;
 	margin-bottom: 20px;
 	outline: none;
-	padding: 5px;
+	padding: 5px 5px 5px 15px;
 	height: 25px;
 	border-radius: 10px;
 	background: transparent;
 }
-input[type="email"]:hover {
+input[type="email"]:focus {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
 }
-input[type="password"]:hover {
+input[type="password"]:focus {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
 }
 input[type="submit"]{
-	width: 95px;
+	width: 90px;
 	height: 35px;
+	font-weight: bold;
 	background-color: #054F22;
 	color: white;
 	border: none;
@@ -62,9 +63,6 @@ input[type="submit"]:hover{
 	background: #054F22;
     color: #fff;
     transform: translateY(-3px);
-}
-.submit{
-	margin-left: 75px;
 }
 .fourloop{
 	text-align: center;
@@ -85,9 +83,46 @@ input[type="submit"]:hover{
 a{
 	text-decoration: none;
 }
-@media screen and (min-width: 770px) {
-    body{
-        background-size: cover;
-        background-position: center;
-    }
+.forgot{
+	margin-left: 33%;
+}
+@media screen and (max-width: 560px) {
+	body{
+		background-size: cover;
+		background-position: top;
+	}
+    .loginbox{
+		width: 75%;
+		margin-left: 0;
+		border: none;
+		box-shadow: none;
+		margin-right: 0;
+		box-sizing: none;
+	}
+	.four, .loop{
+		font-size: 28px;
+
+	}
+	.fourloop{
+		margin-top: -30px;
+	}
+	input[type="submit"]{
+		width: 108%;
+	}
+	.dont{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.forgot{
+		margin-left: 0px;
+		font-size: 12px;
+	}
+	.avatar{
+		height: 80px;
+		width: 80px;
+	}
+	input{
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
 } 
