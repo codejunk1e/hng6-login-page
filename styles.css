@@ -22,6 +22,21 @@
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
 	font-family: montserrat, sans-serif;
 }
+
+.loginbox1 {
+	width: 40%;
+	color: black;
+	height: 63%;
+	margin-left: 30%;
+	margin-top: 4.5%;
+    border-radius: 5px;
+	position: absolute;
+	border: 1px solid;
+    padding: 70px 30px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
+	font-family: montserrat, sans-serif;
+}
+
 .avatar{
 	width: 100px;
 	height: 100px;
@@ -45,8 +60,7 @@ input{
 
 .loginbox input[type="email"], input[type="password"]{
 	border: none;
-	border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 8px;
 	outline: none;
 	height: 40px;
 	color: black;
@@ -54,6 +68,45 @@ input{
 	font-weight: 600;
     padding-left: 10px;
 }
+
+.loginbox1 input[type="email"], 
+	input[type="password"], 
+	input[type="text"] {
+	border: none;
+    border-radius: 8px;
+	outline: none;
+	height: 10%;
+	color: black;
+	font-size: 19px;
+	font-weight: 600;
+    padding-left: 10px;
+}
+
+.loginbox1 input {
+	margin-left: -2%;
+}
+
+.already {
+	color: grey;
+	margin-top: 5%;
+}
+
+.sign-up {
+	border: none;
+	background: green;
+	color: #fff;
+	margin-top: 6%;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	transform: translateY(-1px);
+}
+
 input[type="email"]:hover {
     transform: translateY(-2px);
     border: 1px solid lightgreen;
@@ -61,7 +114,11 @@ input[type="email"]:hover {
 input[type="password"]:hover {
     transform: translateY(-2px);
 	border: 1px solid lightgreen;
-	
+}
+
+input[type="text"]:hover {
+    transform: translateY(-2px);
+	border: 1px solid lightgreen;
 }
 
 .loginbox input[type="submit"]{
@@ -119,6 +176,10 @@ a{
 	text-align: center;
 	font-size: .8rem;
 	margin-top: 5%;
+}
+
+.sign:hover {
+	color: #000;
 }
 
 @media screen and (max-width: 560px) {
