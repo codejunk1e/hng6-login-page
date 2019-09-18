@@ -3,10 +3,26 @@
 function validateLogin() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
+    var fullName = document.getElementById('Full-Name').value;
+    var passwordAgain = document.getElementById('Confirm-password').value;
     var errorMessage = document.getElementById('errorMessage');
     var text;
 
     errorMessage.style.padding = "10px";
+
+    if (fullName == "") {
+        text = "Please input your full name.";
+        errorMessage.innerHTML =text;
+        document.getElementById('Full-Name').focus();
+        return false;
+    }
+    
+    if (passwordAgain.length != password) {
+        text = "Passwords must be the same.";
+        errorMessage.innerHTML =text;
+        document.getElementById('Confirm-Password').focus();
+        return false;
+    }
 
     if (email == "") {
         text = "Please input your email address.";
