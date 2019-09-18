@@ -16,7 +16,8 @@
     <div class="loginbox">
         <img src="https://res.cloudinary.com/tabeetha/image/upload/v1568648173/user-1633249_v5fkne.svg" class="avatar">
         <p class="fourloop"><span class="four">4</span><span class="loop">loop</span></p>
-        <form>
+        <div id="errorMessage"></div>
+        <form onsubmit="validateLogin()">
             <label for="email">
                 <input type="email" id="email" placeholder="Email">
             </label>
