@@ -20,22 +20,24 @@
         <form onsubmit="validateSignUp()">
             <label for="Full-Name">
                 <span>Full Name:</span>
-                <input type="text" name="fullname" id="Full-Name">
+                <input type="text" name="fullname" id="Full-Name" required>
             </label>
             <label for="Email">
                 <span>Email:</span>
-                <input type="email" name="email" id="Email">
+                <input type="email" name="email" id="Email" required>
             </label>
             <label for="Password">
                 <span>Password:</span>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </label>
             <label for="Confirm-Password">
                 <span>Confirm Password:</span>
-                <input type="password" name="passwordAgain" id="Confirm-Password">
+                <input type="password" name="passwordAgain" id="Confirm-Password" required>
             </label>
             <span class="already">Already Have an Account? <a href="index.html" style="color: red">Login</a>
+                <div class="submit_button">
             <input type="submit" value="SUBMIT" class="sign-up"></span>
+                </div>
         </form>
     </div>
     <script src="index.js"></script>
