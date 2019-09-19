@@ -19,11 +19,18 @@
         <div id="errorMessage"></div>
         <form onsubmit="validateLogin()">
             <label for="email">
-                <input type="email" id="email" placeholder="Email">
+                <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input type="email" name="email" id="email" placeholder="Email">
+                </div>
             </label>
             <label for="password">
-                <input type="password" id="password" placeholder="Password">
+                <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <input type="password" name="password" id="password" placeholder="Password">
+                </div>
             </label>
+            
             <p class="forgot">Forgot your password? Click <a href="#" style="color: red">Here</a></p>
             <input type="submit" value="Sign In" class="submit">
             <p class="sign"><a href="signup.html" style="color: grey">Sign Up here</a></p>
